@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiple Pages website</title>
+    <title>Blog Page</title>
     <link rel="stylesheet" href="blog.css">
 </head>
 <body>
+    <nav>
+        <div>
+            <h1>Hasim's Store</h1>
+        </div>
+        <ul>
+            <li> <a href="../index.html">Home</a></li> 
+            <li>  <a href="other_page/blog.html">Blog</a></li> 
+            <li> <a href="video.html"> Videos </a> </li>
+            <li> <a href="contact.html"> Contact Us </a> </li>
+            <li> <a href="about.html"> Aboute Us </a> </li>
+        </ul>
+    </nav>
+
   <article>
-    <div>
+    <div id="article-container">
+        <h2 class="article-title"> My-<span>Blog</span> </h2>
+     <div id="blog-parent">
         <div class="single-blog">
             <div class="single-img">
-                <img src="image/blog-1.jpg" alt="">
+                <img src="../image/blog-1.jpg" alt="">
             </div>
             <div class="single-text">
                 <span> Jan 28, 2025 | Branding</span>
@@ -22,7 +37,7 @@
         </div>  
         <div class="single-blog">
             <div class="single-img">
-                <img src="image/blog-2.jpg" alt="">
+                <img src="../image/blog-2.jpg" alt="">
             </div>
             <div class="single-text">
                 <span> Apr 20, 2025 | Branding</span>
@@ -33,7 +48,7 @@
         </div>  
         <div class="single-blog">
             <div class="single-img">
-                <img src="image/blog-3.jpg" alt="">
+                <img src="../image/blog-3.jpg" alt="">
             </div>
             <div class="single-text">
                 <span> Jun 09, 2025 | Branding</span>
@@ -42,6 +57,7 @@
                 <a href="#"> Read More > </a>
             </div>
         </div>  
+     </div>
     </div>
   </article>
 </body>
